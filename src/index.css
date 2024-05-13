@@ -1,0 +1,51 @@
+    
+    body {
+        background-color: #F1D32B;
+        padding: 20px;
+    }
+
+    .outside-ul {
+        background-color: black;
+        height: 50px;
+    }
+
+    ul {
+        padding-right: 10px;
+    }
+
+    li {
+        display: inline;
+        margin-right: 10px;
+    }
+    
+    button {
+        background-color: #000000; 
+        border: none; 
+        color: white; 
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        height: 50px;
+    }
+    
+    button.active {
+        background-color: blue;
+    }
+
+    .insidecontainer-content{
+        margin-top: 20px;
+        background-color: white;
+        padding: 20px;
+    }
+
+    .insidecontainer-content ol {
+        display: flex; 
+        flex-direction: column; 
+      }
+
+    .insidecontainer-content ol li {
+        margin-bottom: 10px; 
+      }
+    
+    
